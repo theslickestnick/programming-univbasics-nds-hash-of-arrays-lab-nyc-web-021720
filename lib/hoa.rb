@@ -6,6 +6,7 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  show[name] << "Dave"# Write your implementation here
+  show[name] << "Dave"
+  return show# Write your implementation here
   # Should return the array of the 'show' argument
 end
